@@ -1,0 +1,6 @@
+1. SiteToSiteBulletinReportingTask[id=eaceab9d-0184-1000-0000-00002a7c1b28] Failed to persist list of peers due to java.io.IOException: 
+All Partitions have been blacklisted due to failures when attempting to update. If the Write-Ahead Log is able to perform a checkpoint, 
+this issue may resolve itself. Otherwise, manual intervention will be required.; if restarted and the nodes specified at the remote instance are down, 
+may be unable to transfer data until communications with those nodes are restored
+
+ANS: restart the nifi server
